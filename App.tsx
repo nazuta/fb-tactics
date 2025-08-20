@@ -11,7 +11,7 @@ import {
 } from "./types/formation";
 import { detectPosition } from "./utils/positionDetection";
 import { createCustomFormation, hasFormationBeenModified, getAllFormations, updateCustomFormation } from "./utils/customFormations";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { Toaster } from "./components/ui/sonner";
 import {
   SidebarProvider,

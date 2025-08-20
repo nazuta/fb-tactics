@@ -5,7 +5,7 @@ import { Card, CardContent } from './ui/card';
 import { Formation } from '../types/formation';
 import { getAllFormations, deleteCustomFormation, renameCustomFormation } from '../utils/customFormations';
 import { Trash2, Edit3, Check, X, Star } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import {
   AlertDialog,
   AlertDialogAction,
